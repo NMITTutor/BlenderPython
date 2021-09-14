@@ -26,15 +26,17 @@ This has consequences in "Chapter 4. Build Your Own Add-On" .
 
 See a version in this repo.
 
-3. Also  when adding a to a panel key word arguments are used for example , def draw(self, context):
-
+3. Also  when adding a to a panel key word arguments are used for example , 
+def draw(self, context):
       self.layout.label("Hi Panel")
       
 Should  be,
 
-
-
-def draw(self,context):      self.layout,.label( text="Hi Panel")The Add Smooth Monkey add on needs Class property registration annotations for smoothness, size and name, like this:
+def draw(self,context):     
+         self.layout,.label( text="Hi Panel")
+        
+        
+The Add Smooth Monkey add on needs Class property registration annotations for smoothness, size and name, like this:
 
 smoothness : bpy.props.IntProperty(
 
