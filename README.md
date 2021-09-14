@@ -33,7 +33,7 @@ def draw(self, context):
 Should  be,
 
 def draw(self,context):     
-         self.layout,.label( text="Hi Panel")
+         self.layout.label( text="Hi Panel")
         
         
 The Add Smooth Monkey add on needs Class property registration annotations for smoothness, size and name, like this:
